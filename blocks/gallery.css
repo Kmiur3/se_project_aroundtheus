@@ -1,6 +1,9 @@
-.gallery {
+.gallery__page-section {
   font-family: "Inter", Arial, sans-serif;
   padding: 15px 0 36px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .gallery__cards {
@@ -10,10 +13,12 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  justify-content: center;
 }
 
 @media screen and (max-width: 568px) {
   .gallery__cards {
+    grid-template-columns: repeat(auto-fill, minimax(200px, 1fr));
     padding: 15px 0 18px;
   }
 }

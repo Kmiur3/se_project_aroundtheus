@@ -11,12 +11,11 @@
 
 .card__list {
   display: grid;
-  justify-content: center;
+  justify-content: flex-start;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-auto-rows: 400px;
   grid-gap: 20px 17px;
-  padding: 0;
-  margin: 0;
+  padding-left: 0;
 }
 
 .card {
@@ -41,6 +40,16 @@
   padding-right: 20px;
   align-items: center;
   justify-content: space-between;
+}
+
+.card__title {
+  max-width: 220px;
+  font-size: 24px;
+  line-height: 29px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0;
 }
 
 .card__like-button {
