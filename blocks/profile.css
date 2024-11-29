@@ -30,6 +30,7 @@
   font-size: 42px;
   line-height: 48px;
   font-weight: 500;
+  align-content: center;
   grid-area: title;
   margin: 0;
 }
@@ -48,6 +49,7 @@
   border-radius: 50%;
   object-fit: cover;
   background-position: center;
+  align-items: baseline;
   margin-right: 24px;
 }
 
