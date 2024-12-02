@@ -7,6 +7,7 @@
 
 .header__page-section {
   max-height: 74px;
+  margin-top: 47px;
   width: 100%;
   display: flex;
   justify-content: flex-start;
