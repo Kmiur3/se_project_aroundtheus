@@ -1,0 +1,9 @@
+.cards {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.85rem;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  margin-top: 30px;
+}
