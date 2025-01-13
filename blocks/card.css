@@ -3,9 +3,9 @@
   justify-content: flex-start;
   grid-template-rows: repeat(auto, 282px);
   grid-template-columns: repeat(3, 282px);
-  grid-auto-rows: 400px;
   grid-gap: 20px 17px;
   padding-left: 0;
+  margin: 0;
 }
 
 .card {
@@ -13,6 +13,7 @@
   flex-direction: column;
   list-style: none;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .card__image {

@@ -1,0 +1,16 @@
+.footer {
+    position: relative;
+}
+
+.footer__copyright {
+    color: #545454;
+    position: absolute;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    width: 318px;
+    height: 18px;
+    top: 1139px;
+    left: 200px;
+}
