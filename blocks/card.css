@@ -1,7 +1,6 @@
 .card__list {
   display: grid;
-  justify-content: flex-start;
-  grid-template-rows: repeat(auto, 282px);
+  grid-template-rows: auto;
   grid-template-columns: repeat(auto-fit, 282px);
   grid-gap: 20px 17px;
   padding-left: 0;
