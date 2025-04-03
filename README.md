@@ -16,6 +16,8 @@ This project shows all of the places my family and I have traveled to around the
 
 - [Link to the project on github pages](https://kmiur3.github.io/se_project_aroundtheus/)
 
+- [Link to the video of how my code was created](https://drive.google.com/file/d/1ctY6Y6ZrPFWy-RIWVRQZ02nK1vqIc2aY/view?usp=sharing)
+
 **Images**
 
 If you want to upload your own images, download them from your figma or local folder and then optimize them [here](https://tinypng.com/), so your project functions properly.
