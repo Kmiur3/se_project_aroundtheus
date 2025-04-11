@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: flex-start;
   padding-top: 40px;
-  width: 100%;
   margin: 0 auto;
+  width: 100%;
   max-width: 880px;
 }
 
@@ -14,10 +14,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
+  padding-left: auto;
 }
 
 @media screen and (max-width: 630px) {
   .footer__copyright {
     font-size: 14px;
+    margin-left: 35px;
   }
 }
