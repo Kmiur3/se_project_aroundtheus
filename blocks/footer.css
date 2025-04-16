@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-top: 40px;
+  padding: 40px;
   margin: 0 auto;
   width: 100%;
   max-width: 880px;
@@ -14,12 +14,18 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
-  padding-left: auto;
+  margin: 0;
 }
 
 @media screen and (max-width: 630px) {
+  .footer {
+    width: 282px;
+    height: 14px;
+    margin: 48px 19px 36px 19px;
+    padding: 0 0 0 19px;
+  }
+
   .footer__copyright {
     font-size: 14px;
-    margin-left: 35px;
   }
 }

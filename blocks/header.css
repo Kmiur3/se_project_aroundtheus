@@ -6,8 +6,8 @@
 }
 
 .header__page-section {
-  padding: 0 0 25px;
-  margin-top: 45px;
+  margin: 45px 0 0;
+  padding: 0 0 32px;
   justify-content: center;
   align-items: center;
 }
@@ -15,5 +15,10 @@
 @media screen and (max-width: 630px) {
   .header {
     min-width: 100%;
+  }
+
+  .header__page-section {
+    margin: 28px 0 42px;
+    padding: 0;
   }
 }
