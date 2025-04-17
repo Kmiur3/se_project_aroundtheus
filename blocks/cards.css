@@ -10,7 +10,7 @@
 
 @media screen and (max-width: 480px) {
   .cards__album {
-    flex-direction: column;
+    justify-content: center;
     max-width: 480px;
   }
 }

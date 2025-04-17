@@ -85,6 +85,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 282px;
   }
 
   .profile__title {
