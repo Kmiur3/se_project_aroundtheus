@@ -27,4 +27,9 @@
   .header__page-section {
     margin: 28px 27px 32px;
   }
+
+  .header__logo {
+    width: 126px;
+    height: 24px;
+  }
 }
