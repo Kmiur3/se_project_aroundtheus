@@ -2,6 +2,7 @@
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: repeat(auto-fit, 282px);
+  justify-content: center;
   grid-gap: 20px 17px;
   padding-left: 0;
   margin-top: 47px;
@@ -10,7 +11,6 @@
 
 @media screen and (max-width: 480px) {
   .cards__album {
-    justify-content: center;
     max-width: 480px;
   }
 }
