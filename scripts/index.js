@@ -1,27 +1,27 @@
 const initialCards = [
   {
-    title: "Stonehenge",
-    link: "https://drive.google.com/file/d/1sfX1qAp-g3A9gLQ8KAMQRBL6kz2MZBFt/view?usp=sharing",
+    name: "Stonehenge",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Stonehenge.png",
   },
   {
-    title: "Big Ben",
-    link: "https://drive.google.com/file/d/1thX6qR_qbA-49cJdV4gasqp8jOzxMBfO/view?usp=sharing",
+    name: "Big Ben",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Big-Ben.png",
   },
   {
-    title: "Cliffs of Moher",
-    link: "https://drive.google.com/file/d/1od8EBagWlUMLSV_ynZWepQadNVIpDT37/view?usp=sharing",
+    name: "Cliffs of Moher",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Cliffs-of-Moher.png",
   },
   {
-    title: "Mont St Michel",
-    link: "https://drive.google.com/file/d/1q-X48WhjBa-Zngha9PV6-tiLIrPAtBmf/view?usp=sharing",
+    name: "Mont St Michel",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Mont-St-Michel.png",
   },
   {
-    title: "Matterhorn",
-    link: "https://drive.google.com/file/d/1Jj0Ynl9WJ_8BD3OAMsl4aic8LSsjqC8w/view?usp=sharing",
+    name: "Matterhorn",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Matterhorn.png",
   },
   {
-    title: "Kirkjufell",
-    link: "https://drive.google.com/file/d/16vl3J2WY60-_IoYKC50kGh5kXtDWTiVY/view?usp=sharing",
+    name: "Kirkjufell",
+    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Kirkjufell.png",
   },
 ];
 
