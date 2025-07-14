@@ -25,4 +25,17 @@ const initialCards = [
   },
 ];
 
-console.log(initialCards);
+/*-----------------------------------------------*/
+/*                   Elements                    */
+/*-----------------------------------------------*/
+const titleEditButton = document.querySelector("#title-edit-button");
+const titleEditModal = document.querySelector("#title-edit-modal");
+const titleCloseButton = document.querySelector("#title-close-button");
+
+titleEditButton.addEventListener("click", () => {
+  titleEditModal.classList.add("modal_opened");
+});
+
+titleCloseButton.addEventListener("click", () => {
+  titleEditModal.classList.remove("modal_opened");
+});

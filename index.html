@@ -33,6 +33,7 @@
             <button
               aria-label="Edit Profile"
               class="profile__edit-button"
+              id="title-edit-button"
               type="button"
             ></button>
             <p class="profile__description">
@@ -145,14 +146,28 @@
       </footer>
     </div>
 
-    <div class="modal">
+    <div class="modal" id="title-edit-modal">
       <div class="modal__container">
-        <button class="modal__close"></button>
+        <button
+          class="modal__close"
+          id="title-close-button"
+          type="button"
+        ></button>
         <p class="modal__heading">Edit Profile</p>
         <form class="modal__form">
-          <input type="text" name="title" />
-          <input type="text" name="description" />
-          <button class="modal__button">Save</button>
+          <input
+            class="modal__input"
+            type="text"
+            name="Title"
+            placeholder="Title"
+          />
+          <input
+            class="modal__input"
+            type="text"
+            name="Description"
+            placeholder="Description"
+          />
+          <button class="button modal__button" type="submit">Save</button>
         </form>
       </div>
     </div>

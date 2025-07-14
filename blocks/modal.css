@@ -12,16 +12,18 @@
   justify-content: center;
 }
 
-.modal__opened {
-  display: flex;
-}
-
 .modal__container {
   position: relative;
   padding: 36px;
+  width: 430px;
+  height: 330px;
   background-color: #fff;
   margin: auto;
   border-radius: 10px;
+}
+
+.modal_opened {
+  display: flex;
 }
 
 .modal__close {
@@ -42,4 +44,10 @@
   font-family: "Inter", sans-serif;
   color: black;
   font-size: 24px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
 }
