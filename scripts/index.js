@@ -37,13 +37,25 @@ const titleEditInput = document.querySelector("#title-edit-input");
 const titleDescriptionInput = document.querySelector(
   "#title-description-input"
 );
+const profileEditForm = titleEditModal.querySelector(".modal__form");
+
+function closePopup() {
+  titleEditModal.classList.remove("modal_opened");
+}
 
 titleEditButton.addEventListener("click", () => {
   titleEditInput.value = profileTitle.textContent;
-
+  titleDescriptionInput.value = profileDescription.textContent;
   titleEditModal.classList.add("modal_opened");
 });
 
 titleCloseButton.addEventListener("click", () => {
-  titleEditModal.classList.remove("modal_opened");
+  closePopup();
+});
+
+profileEditForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  profileTitle.textContent = titleEditInput.value;
+  profileDescription.textContent = titleDescriptionInput.value;
+  closePopup();
 });
