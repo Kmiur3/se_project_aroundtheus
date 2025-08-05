@@ -25,9 +25,9 @@ const initialCards = [
   },
 ];
 
-/*-----------------------------------------------*/
-/*                   Elements                    */
-/*-----------------------------------------------*/
+/*------------------------------------------------------------------------*/
+/*                                 Elements                               */
+/*------------------------------------------------------------------------*/
 const titleEditButton = document.querySelector("#title-edit-button");
 const titleEditModal = document.querySelector("#title-edit-modal");
 const titleCloseButton = document.querySelector("#title-close-button");
@@ -39,9 +39,20 @@ const titleDescriptionInput = document.querySelector(
 );
 const profileEditForm = titleEditModal.querySelector(".modal__form");
 
+/*------------------------------------------------------------------------*/
+/*                                 Functions                              */
+/*------------------------------------------------------------------------*/
 function closePopup() {
   titleEditModal.classList.remove("modal_opened");
 }
+
+/*------------------------------------------------------------------------*/
+/*                                 Event Handlers                         */
+/*------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------*/
+/*                                 Event Listeners                        */
+/*------------------------------------------------------------------------*/
 
 titleEditButton.addEventListener("click", () => {
   titleEditInput.value = profileTitle.textContent;
