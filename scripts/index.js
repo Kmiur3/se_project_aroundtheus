@@ -49,6 +49,12 @@ function closePopup() {
 /*------------------------------------------------------------------------*/
 /*                                 Event Handlers                         */
 /*------------------------------------------------------------------------*/
+function handleProfileEditSubmit(e) {
+  e.preventDefault();
+  profileTitle.textContent = titleEditInput.value;
+  profileDescription.textContent = titleDescriptionInput.value;
+  closePopup();
+}
 
 /*------------------------------------------------------------------------*/
 /*                                 Event Listeners                        */
@@ -60,13 +66,6 @@ titleEditButton.addEventListener("click", () => {
   titleEditModal.classList.add("modal_opened");
 });
 
-titleCloseButton.addEventListener("click", () => {
-  closePopup();
-});
+titleCloseButton.addEventListener("click", closePopup);
 
-profileEditForm.addEventListener("submit", (e) => {
-  e.preventDefault();
-  profileTitle.textContent = titleEditInput.value;
-  profileDescription.textContent = titleDescriptionInput.value;
-  closePopup();
-});
+profileEditForm.addEventListener("submit", handleProfileEditSubmit);
