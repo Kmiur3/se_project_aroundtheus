@@ -38,6 +38,8 @@ const titleDescriptionInput = document.querySelector(
   "#title-description-input"
 );
 const profileEditForm = titleEditModal.querySelector(".modal__form");
+const cardTemplate =
+  document.querySelector("#card-template").content.firstElementChild;
 
 /*------------------------------------------------------------------------*/
 /*                                 Functions                              */
@@ -69,3 +71,7 @@ titleEditButton.addEventListener("click", () => {
 titleCloseButton.addEventListener("click", closePopup);
 
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
+
+initialCards.forEach(cardData) => {
+
+}
