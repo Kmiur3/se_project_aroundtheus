@@ -14,11 +14,12 @@
 
 .modal__container {
   position: relative;
-  padding: 36px;
+  padding: 0 36px;
   width: 430px;
   height: 330px;
   background-color: #fff;
   margin: auto;
+  max-width: none;
   border-radius: 10px;
 }
 
@@ -44,46 +45,65 @@
   font-family: "Inter", sans-serif;
   color: black;
   font-size: 24px;
+  line-height: 24px;
+  font-weight: 900;
+  margin-bottom: 54px;
 }
 
 .modal__form {
   display: flex;
   flex-direction: column;
-  gap: 56px;
+  gap: 48px;
+}
+
+.modal__input {
+  border-style: inherit;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  font-weight: 400;
+  width: 90%;
 }
 
 .modal__button {
+  background-color: black;
+  color: #fff;
   font-size: 18px;
+  font-weight: 400;
+  width: auto;
+  height: 51px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 630px) {
   .modal__container {
+    max-width: 100%;
     width: 282px;
     height: 322px;
-    left: 19px;
-    padding: 0;
-    border-radius: 10px;
+    padding: 25px;
   }
 
   .modal__close {
-    top: 73px;
-    right: 10px;
-    left: 265px;
+    position: absolute;
+    bottom: 395px;
+    left: 305px;
     width: 26px;
     height: 26px;
   }
 
   .modal__heading {
     font-size: 18px;
+    font-style: normal;
     line-height: 18px;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
   }
 
   .modal__form {
-    gap: 30px;
+    gap: 45px;
   }
 
   .modal__button {
+    background-color: black;
+    color: #fff;
     font-size: 14px;
+    height: 46px;
   }
 }
