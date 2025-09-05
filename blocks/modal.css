@@ -28,10 +28,10 @@
 }
 
 .modal__close {
+  position: absolute;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  position: absolute;
   bottom: calc(100% + 5px);
   left: calc(100% + 5px);
   width: 40px;
@@ -77,14 +77,13 @@
   .modal__container {
     max-width: 100%;
     width: 282px;
-    height: 322px;
+    height: 290px;
     padding: 25px;
   }
 
   .modal__close {
-    position: absolute;
-    bottom: 395px;
-    left: 305px;
+    top: -45px;
+    left: 255px;
     width: 26px;
     height: 26px;
   }
