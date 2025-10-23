@@ -49,11 +49,10 @@ function closePopup() {
   titleEditModal.classList.remove("modal_opened");
 }
 
-function handleProfileFormSubmit(evt) {
+function handleAddCardFormSubmit(evt) {
   evt.preventDefault();
-  profileTitle.textContent = nameInput.value;
-  profileDescription.textContent = jobInput.value;
-  closeModal();
+
+  closeModal(addCardModal);
 }
 
 function getCardElement(cardData) {
