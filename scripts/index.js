@@ -49,9 +49,20 @@ function closePopup() {
   titleEditModal.classList.remove("modal_opened");
 }
 
+function openModal(modal) {
+  titleEditModal.classList.add("modal_opened");
+}
+
+function handleProfileFormSubmit(evt) {
+  evt.preventDefault();
+  profileTitle.textContent = nameInput.value;
+  profileDescription.textContent = jobInput.value;
+  closeModal(editProfileModal);
+}
+
 function handleAddCardFormSubmit(evt) {
   evt.preventDefault();
-
+  const cardElement = getCardElement();
   closeModal(addCardModal);
 }
 
@@ -62,6 +73,7 @@ function getCardElement(cardData) {
   cardImageEl.src = cardData.link;
   cardImageEl.alt = cardData.name;
   cardTitleEl.textContent = cardData.name;
+
   return cardElement;
 }
 /*------------------------------------------------------------------------*/
