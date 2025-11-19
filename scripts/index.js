@@ -45,6 +45,7 @@ const cardTemplate =
 /*------------------------------------------------------------------------*/
 /*                                 Functions                              */
 /*------------------------------------------------------------------------*/
+
 function closePopup() {
   titleEditModal.classList.remove("modal_opened");
 }
