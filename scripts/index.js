@@ -37,6 +37,13 @@ const titleEditInput = document.querySelector("#title-edit-input");
 const titleDescriptionInput = document.querySelector(
   "#title-description-input"
 );
+const addNewCardButton = document.querySelector(".profile__add-button");
+
+const nameInput = profileFormElement.querySelector(".modal__input_type_name");
+const jobInput = profileFormElement.querySelector(".modal__input_type_description");
+const cardTitleInput = addCardFormElement.querySelector(".modal__input_type_title");
+const cardUrlInput = addCardFormElement.querySelector(".modal__input_type_url");
+
 const profileEditForm = document.forms["profile-form"];
 const cardAlbumEl = document.querySelector(".cards__album");
 const cardTemplate =
@@ -46,8 +53,8 @@ const cardTemplate =
 /*                                 Functions                              */
 /*------------------------------------------------------------------------*/
 
-function closePopup() {
-  titleEditModal.classList.remove("modal_opened");
+function closePopup(modal) {
+  modal.classList.remove("modal_opened");
 }
 
 function openModal(modal) {
@@ -63,6 +70,7 @@ function handleProfileFormSubmit(evt) {
 
 function handleAddCardFormSubmit(evt) {
   evt.preventDefault();
+  const 
   const cardElement = getCardElement();
   closeModal(addCardModal);
 }
