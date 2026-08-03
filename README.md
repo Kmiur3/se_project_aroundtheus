@@ -1,4 +1,4 @@
-# Project 3: Around The World
+# Project 5: Around The World
 
 ### Overview
 
@@ -14,7 +14,7 @@ This project shows all of the places my family and I have traveled to around the
 
 - The tech utilized was Figma and Visual Studio Code. I used the inspect function on my computer to make sure the visual product matched the Figma design.
 
-- [Link to the project on github pages](https://kmiur3.github.io/se_project_aroundtheus/) //changes need to made here//
+- [Link to the project on github pages](https://kmiur3.github.io/se_project_aroundtheworld/)
 
 **Images**
 

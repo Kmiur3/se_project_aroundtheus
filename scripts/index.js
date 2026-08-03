@@ -1,27 +1,27 @@
 const initialCards = [
   {
     name: "Stonehenge",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Stonehenge.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Stonehenge.png",
   },
   {
     name: "Big Ben",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Big-Ben.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Big-Ben.png",
   },
   {
     name: "Cliffs of Moher",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Cliffs-of-Moher.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Cliffs-of-Moher.png",
   },
   {
     name: "Mont St Michel",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Mont-St-Michel.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Mont-St-Michel.png",
   },
   {
     name: "Matterhorn",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Matterhorn.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Matterhorn.png",
   },
   {
     name: "Kirkjufell",
-    link: "https://kmiur3.github.io/se_project_aroundtheus/images/Kirkjufell.png",
+    link: "https://kmiur3.github.io/se_project_aroundtheworld/images/Kirkjufell.png",
   },
 ];
 
