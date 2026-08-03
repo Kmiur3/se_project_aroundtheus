@@ -86,6 +86,8 @@
   max-height: 75vh;
   padding: 0;
   background-color: transparent;
+  display: flex;
+  flex-direction: column;
 }
 
 .modal__image {
@@ -96,9 +98,10 @@
 }
 
 .modal__caption {
-  color: black;
+  color: white;
   font-size: 12px;
-  margin-top: 8px;
+  margin: 8px 0 0;
+  align-self: flex-start;
 }
 
 @media screen and (max-width: 630px) {

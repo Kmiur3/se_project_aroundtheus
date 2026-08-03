@@ -1,4 +1,4 @@
-# Project 3: Around The U.S.
+# Project 3: Around The World
 
 ### Overview
 
@@ -8,15 +8,13 @@
 
 **Intro**
 
-This project shows all of the places my family and I have traveled to around the U.S. Users can replace the images with their own and change the card titles.
+This project shows all of the places my family and I have traveled to around the world. Users can replace the images with their own and change the card titles.
 
 **Figma**
 
 - The tech utilized was Figma and Visual Studio Code. I used the inspect function on my computer to make sure the visual product matched the Figma design.
 
 - [Link to the project on github pages](https://kmiur3.github.io/se_project_aroundtheus/)
-
-- [Link to the video of how my code was created](https://drive.google.com/file/d/1ctY6Y6ZrPFWy-RIWVRQZ02nK1vqIc2aY/view?usp=sharing)
 
 **Images**
 
