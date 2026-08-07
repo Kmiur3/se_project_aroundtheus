@@ -110,6 +110,11 @@ function getCardElement(cardData) {
   cardImage.src = cardData.link;
   cardImage.alt = cardData.name;
   cardTitle.textContent = cardData.name;
+
+  card__like - button.addEventListener("click", handleLikeButtonClick);
+  card__delete - button.addEventListener("click", handleDeleteButtonClick);
+  card__image.addEventListener("click", handleImageClick);
+
   return cardElement;
 }
 
@@ -125,20 +130,9 @@ titleEditButton.addEventListener("click", () => {
 profileEditForm.addEventListener("submit", handleProfileEditSubmit);
 
 addNewCardButton.addEventListener("click", () => {
-  addCardFormElement.reset();
   openModal(addCardModal);
 });
 addCardFormElement.addEventListener("submit", handleAddCardFormSubmit);
-
-cardAlbum.addEventListener("click", (evt) => {
-  if (evt.target.classList.contains("card__like-button")) {
-    handleLikeButtonClick(evt);
-  } else if (evt.target.classList.contains("card__delete-button")) {
-    handleDeleteButtonClick(evt);
-  } else if (evt.target.classList.contains("card__image")) {
-    handleImageClick(evt);
-  }
-});
 
 const closeButtons = document.querySelectorAll(".modal__close");
 
